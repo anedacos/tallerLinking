@@ -1,11 +1,19 @@
 /* addvec.c */
 /* $begin addvec */
-void addvec(int *x, int *y,
-	    int *z, int n) 
+struct vector {
+	int x,y,z;
+};
+
+/*Vector *v1_nuevo(){
+	Vector *v1 = malloc(sizeof(Vector));
+	return v1; 
+}*/
+
+void addvec(Vector *v1, int n) 
 {
     int i;
 
     for (i = 0; i < n; i++)
-	z[i] = x[i] + y[i];
+	v1.z[i] = v1.x[i] + v1.y[i];
 }
 /* $end addvec */
