@@ -1,0 +1,5 @@
+Para obtener el addvec.md utilice el comando:   readelf -S addvec.o > addvec.md
+readelf -S addvec.o > addvec.md
+anthony@Anthony-VirtualBox:~/Documentos/pSistemas/tallerLinking$ readelf -S multvec.o > multvec.md
+anthony@Anthony-VirtualBox:~/Documentos/pSistemas/tallerLinking$ readelf -S main2.o > main2.mdreadelf -S multvec.o > multvec.md
+readelf -S main2.o > main2.md
